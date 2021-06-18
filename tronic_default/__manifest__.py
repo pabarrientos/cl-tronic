@@ -65,6 +65,9 @@
         'https://github.com/jobiols/odoo-addons.git',
         'https://github.com/jobiols/rafi16jan-backend-theme.git',
         'https://github.com/jobiols/odoo-jeo-ce.git',
+	'https://github.com/soroushCoder/theme_soroush_first.git',
+	'https://github.com/odoo/design-themes.git',
+	'https://github.com/muk-it/muk_website.git',
 
         'https://github.com/ingadhoc/odoo-argentina.git',
         'https://github.com/ingadhoc/argentina-sale.git',
@@ -81,6 +84,7 @@
         'https://github.com/ingadhoc/partner.git',
         'https://github.com/ingadhoc/account-invoicing.git',
         'https://github.com/ingadhoc/stock.git',
+	'https://github.com/ingadhoc/purchase.git',
 
         'https://github.com/oca/partner-contact.git',
         'https://github.com/oca/web.git',
@@ -90,10 +94,15 @@
         'https://github.com/oca/server-ux.git',
         'https://github.com/oca/project.git',
         'https://github.com/oca/queue.git',
+	'https://github.com/oca/sale-workflow.git',
+	'https://github.com/OCA/e-commerce.git',
+	'https://github.com/OCA/website.git website-oca',
+        'https://github.com/OCA/website-cms.git',
+	'https://github.com/OCA/product-attribute.git',
     ],
 
     'docker-images': [
-        'odoo jobiols/odoo-jeo:11.0',
+        'odoo pabarrientos/odoo11:0.1',
         'postgres postgres:11.1-alpine',
         'nginx nginx',
         'aeroo adhoc/aeroo-docs'
